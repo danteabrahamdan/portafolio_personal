@@ -41,10 +41,20 @@
         transform: translate3d(100%, 0, 0);
 
         .portrait {
-            background: url('../img/foto.jpg');
+            background: url('../img/foto_small.jpg');
             width: 100px;
             height: 100px;
         }
+    }
+
+    .about-info {
+        grid-template-areas:
+        'bioimage'
+        'bio'
+        'job1'
+        'job2'
+        'job3';
+        grid-template-columns: 1fr;
     }
 }
 
